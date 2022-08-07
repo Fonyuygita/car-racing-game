@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.hide{
+    display: none;
+}
+.car, .obstacle{
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+    width: 50px;
+    height: 100px;
+    background-color: blue;
+    margin:  auto;
+}
+.gameArea{
+    background-color: brown;
+    width: 200px;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+    margin:auto;
+
+
+}
+.lines{
+position:absolute;
+height: 100px;
+width: 10px;
+background-color: black;
+margin: auto;
+margin-left: 100px;
+
+}
