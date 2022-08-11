@@ -15,6 +15,7 @@ let player = { speed: 5, score: 0 };
 // testing branchng in git
 
 let keys = {
+  ArrowNonence:'continue',
   ArrowLeft: false,
   ArrowDown: false,
   ArrowRight: false,
