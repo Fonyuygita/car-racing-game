@@ -57,8 +57,8 @@ function moveObstacles(){
         // we need to have a variable for itrs y postion
   
 console.log(obs.y);
-if(obs.y>1500){
-    obs.y-=1500 
+if(obs.y>=1500){
+    obs.y-=600 
     obs.style.left=Math.floor(Math.random()*150)+ 'px'
 }
 obs.y+=player.speed;
@@ -132,7 +132,7 @@ function start(){
     car.setAttribute('class','car');
 
     gameArea.appendChild(car);
-
+// Drawing lines our road using for loop
     for(var i=0;i<=5;i++){
 let lines=document.createElement('div')
 lines.classList.add('lines')
