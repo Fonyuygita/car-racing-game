@@ -10,6 +10,10 @@ document.addEventListener("keyup", pressUp);
 
 let player = { speed: 5, score: 0 };
 
+
+
+// testing branchng in git
+
 let keys = {
   ArrowLeft: false,
   ArrowDown: false,
