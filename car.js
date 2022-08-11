@@ -11,22 +11,21 @@ document.addEventListener('keyup', pressUp)
 
 let player={speed:5};
 
-<<<<<<< HEAD
+
 
 
 // testing branchng in git
 
 let keys = {
-  ArrowNonence:'continue',
+  
   ArrowLeft: false,
   ArrowDown: false,
   ArrowRight: false,
-  ArrowUp: false,
+  ArrowUp: false
 };
-=======
->>>>>>> parent of b0974fe (changes made today)
 
-let keys = { ArrowLeft: false, ArrowDown: false, ArrowRight: false,ArrowUp:false };
+
+
 
 function moveLines(){
 
