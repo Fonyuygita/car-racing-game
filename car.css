@@ -2,7 +2,6 @@ body{
     background-color: black;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 .hide{
     display: none;
@@ -34,31 +33,4 @@ background-color: black;
 margin: auto;
 margin-left: 100px;
 
-}
-
-.score{
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    background: #454;
-}
-
-.start-screen{
-color: white;
-font-size: 2rem;
-background: rebeccapurple;
-width: 220px;
-text-align: center;
-cursor: pointer;
-border-radius: 2rem;
-transition: all 1s 400ms ease-in-out;
-margin:  auto;
-
-
-
-
-
-}
-.start-screen:hover{
-    background: green;
 }
